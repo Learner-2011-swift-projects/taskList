@@ -15,6 +15,7 @@
 		C572EF8623CD556800EA63B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C572EF8423CD556800EA63B7 /* LaunchScreen.storyboard */; };
 		C572EF8E23CD565E00EA63B7 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = C572EF8D23CD565E00EA63B7 /* Task.swift */; };
 		C572EF9123CD56D700EA63B7 /* TaskStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = C572EF9023CD56D700EA63B7 /* TaskStore.swift */; };
+		C572EF9523CEA2D600EA63B7 /* NewTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C572EF9423CEA2D600EA63B7 /* NewTaskView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		C572EF8723CD556800EA63B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C572EF8D23CD565E00EA63B7 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		C572EF9023CD56D700EA63B7 /* TaskStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskStore.swift; sourceTree = "<group>"; };
+		C572EF9423CEA2D600EA63B7 /* NewTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTaskView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,10 +62,10 @@
 		C572EF7823CD556600EA63B7 /* TaskList */ = {
 			isa = PBXGroup;
 			children = (
+				C572EF9623CEA4D500EA63B7 /* Views */,
 				C572EF8F23CD569400EA63B7 /* Models */,
 				C572EF7923CD556600EA63B7 /* AppDelegate.swift */,
 				C572EF7B23CD556600EA63B7 /* SceneDelegate.swift */,
-				C572EF7D23CD556600EA63B7 /* ContentView.swift */,
 				C572EF7F23CD556800EA63B7 /* Assets.xcassets */,
 				C572EF8423CD556800EA63B7 /* LaunchScreen.storyboard */,
 				C572EF8723CD556800EA63B7 /* Info.plist */,
@@ -87,6 +89,15 @@
 				C572EF9023CD56D700EA63B7 /* TaskStore.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		C572EF9623CEA4D500EA63B7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C572EF7D23CD556600EA63B7 /* ContentView.swift */,
+				C572EF9423CEA2D600EA63B7 /* NewTaskView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,6 +173,7 @@
 			files = (
 				C572EF9123CD56D700EA63B7 /* TaskStore.swift in Sources */,
 				C572EF8E23CD565E00EA63B7 /* Task.swift in Sources */,
+				C572EF9523CEA2D600EA63B7 /* NewTaskView.swift in Sources */,
 				C572EF7A23CD556600EA63B7 /* AppDelegate.swift in Sources */,
 				C572EF7C23CD556600EA63B7 /* SceneDelegate.swift in Sources */,
 				C572EF7E23CD556600EA63B7 /* ContentView.swift in Sources */,
